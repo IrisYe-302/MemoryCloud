@@ -1,0 +1,151 @@
+/* Muted packaging-inspired theme with locally hosted sample photographs. */
+.hero-photo{display:block;width:100%;height:162px;object-fit:cover;margin-top:9px;border:1px solid #48392f12}
+.surprise-panel{padding:24px;margin:16px 3% 28px;background:#e4e7db;border-radius:16px}
+.surprise-panel select{max-width:360px;display:block}
+#suggestionReview{margin-top:20px}
+#suggestionPhoto{display:block;width:180px;height:180px;object-fit:cover;border:10px solid #faf6ec;border-bottom-width:24px;box-shadow:0 4px 14px #48392f20}
+.surprise-panel a{color:inherit}
+:root{--ink:#48392f;--muted:#74685e;--line:#d6cabe;--cream:#f5f0e7;--green:#526450;--rose:#d7b7ae;--sage:#bdc6b1}
+html{scroll-behavior:smooth;scroll-padding-top:24px}body{font-family:'Chalkboard SE','Chalkboard','Comic Sans MS',cursive}.top-strip{text-align:center;background:var(--green);color:var(--cream);padding:8px 16px;font-size:11px;font-weight:600;letter-spacing:.7px}header,main,footer{max-width:1440px}header{padding:24px 5%;border:0;gap:20px}.brand{font:bold italic 32px/1 Georgia,serif;letter-spacing:-2px;white-space:nowrap}.brand span{font-weight:bold;margin-left:3px}nav{display:flex;gap:28px}nav a{color:var(--ink);text-decoration:none;font-size:13px;font-weight:650}nav a:hover{text-decoration:underline;text-underline-offset:5px}.badge{border-color:var(--ink);font-size:9px}main{padding:0 24px}.intro{background:var(--rose);border-radius:14px;padding:50px 6%;display:grid;grid-template-columns:1.2fr 1fr;gap:20px;min-height:420px;overflow:hidden}.eyebrow{color:var(--ink);margin:0 0 24px;font-size:10px}h1{font:900 clamp(48px,6.1vw,88px)/.95 'Cooper Black',Georgia,serif;letter-spacing:-4px;margin:0 0 24px}h1 em{font-weight:900}h2{font:bold 32px/1.08 Georgia,serif;letter-spacing:-1.2px}h3{font:bold 28px Georgia,serif}.intro .sub{color:var(--ink);font-size:14px;line-height:1.7}.upload,button{border-radius:30px;border-color:var(--ink);font-weight:600;transition:background .15s,transform .15s}.upload{display:inline-block;background:var(--ink);color:var(--cream);padding:15px 30px;margin:16px 0 0}.upload:hover,.primary:hover{background:#655044}.upload:focus-within{outline:3px solid var(--green);outline-offset:4px}.hero-art{position:relative;height:310px;max-width:450px;width:100%;margin:auto}.memory-ticket{position:absolute;width:190px;background:var(--cream);padding:14px 14px 20px;border:1px solid #48392f25;box-shadow:8px 12px 0 #48392f14}.memory-ticket>span{font-size:8px;letter-spacing:1px;font-weight:800}.memory-ticket b{display:block;font:bold italic 20px Georgia,serif;margin-top:16px}.ticket-back{left:7%;top:3%;transform:rotate(-13deg)}.ticket-front{left:44%;top:19%;transform:rotate(12deg)}.sun-scene{background:#b0bbaa;height:162px;position:relative;overflow:hidden;margin-top:9px}.sun-scene:before{content:'';position:absolute;width:62px;height:62px;border-radius:100%;background:#e8d1aa;left:50px;top:20px}.sun-scene:after{content:'';position:absolute;width:240px;height:180px;background:#778b73;border-radius:50%;left:-80px;top:93px;transform:rotate(-20deg)}.flower-scene{background:#b6bec7;color:#eee5d4;height:162px;display:grid;place-content:center;font-size:146px;line-height:1;margin-top:9px}.round-stamp{position:absolute;right:-2%;top:-6%;border:1px solid var(--ink);border-radius:50%;width:93px;height:93px;display:grid;place-content:center;text-align:center;font-size:10px;font-weight:800;line-height:1.4;transform:rotate(14deg);background:#e7dac1}.ribbon{display:flex;justify-content:space-around;gap:25px;overflow:hidden;white-space:nowrap;padding:20px 10px 16px;font-size:12px;font-weight:800;letter-spacing:1.4px;border-bottom:1px solid var(--line)}.ribbon span{font-size:18px;line-height:1}#notice{margin:18px 3%}.workspace{grid-template-columns:minmax(0,1fr) 380px;gap:40px;padding:15px 3% 45px;border:0}.album{min-width:0;padding:12px 0 0}.gallery{gap:20px}.photo,.photo:nth-child(even){background:#e4d8c7;padding:15px;border:0;border-radius:12px;transform:none;box-shadow:none}.photo:nth-child(3n+2){background:#c4cbb9}.photo:nth-child(3n){background:#d6c0b8}.photo:hover{transform:translateY(-3px)}.photo.selected{outline-color:#aa8972;outline-offset:4px}.photo img{border:8px solid var(--cream);border-bottom-width:22px;box-shadow:0 3px 8px #48392f15}.photo span{margin:16px 2px 2px}.photo span:before{content:'↗ ';font-size:15px}#empty{background:#e6dfd3;border:0;border-radius:12px}#empty>span{color:#9b7867}aside{background:#e9e4db;border:0;border-radius:12px;padding:25px;min-width:0}aside h2{font-size:25px}aside .section-title>span{font-size:8px}.paper-wrap{background:var(--sage);min-height:240px}.paper-wrap img{max-width:210px;box-shadow:5px 7px 0 #48392f16;transform:rotate(-3deg)}.paper-wrap p{color:var(--ink);font:italic 18px/1.5 Georgia,serif}select,textarea{background:var(--cream);border-color:#c7bbae;border-radius:8px;padding:12px;font-size:14px}textarea{resize:vertical}input[type=checkbox]{width:17px;height:17px;flex-shrink:0;accent-color:var(--ink)}input[type=range]{accent-color:var(--ink)}.primary{background:var(--ink)}button:disabled{cursor:not-allowed}.activity{background:#d4d9ca;padding:35px 4%;border:0;border-radius:12px;margin-bottom:24px}.printer{border-color:#b7bfab;background:#e9ece2;padding:18px;border-radius:10px}.printer button{padding:9px 14px}.job{border-color:#b7bfab}.job em{background:#eef0e8}.job a,.text-link{color:var(--ink)}footer{border:0;padding:30px 5% 45px}select:focus-visible,textarea:focus-visible{outline:3px solid #7d5c43;outline-offset:4px}@media(max-width:1000px){header .badge{display:none}.workspace{gap:24px;grid-template-columns:minmax(0,1fr) 340px}.hero-art{transform:scale(.85);transform-origin:center}h1{letter-spacing:-3px}}@media(max-width:760px){header{padding:22px 20px;flex-wrap:wrap;justify-content:center;gap:18px}.brand{font-size:31px}nav{justify-content:center;width:100%;gap:30px}nav a{font-size:12px}main{padding:0 12px}.intro{grid-template-columns:1fr;padding:30px 24px 18px;gap:10px}.eyebrow{font-size:9px;margin-bottom:18px}h1{font-size:56px;letter-spacing:-2.8px}.intro .sub{font-size:13px}.hero-art{height:265px;max-width:330px;transform:scale(.85);margin-top:5px}.ticket-back{left:0}.ticket-front{left:42%}.round-stamp{right:-5%}.ribbon{font-size:9px;justify-content:flex-start;gap:20px;padding:16px 10px}.workspace{grid-template-columns:1fr;padding:8px 6px 28px;gap:30px}.album{padding:0 3px}h2{font-size:30px}.gallery{gap:16px}.photo,.photo:nth-child(even){padding:10px}.photo img{border-width:5px;border-bottom-width:17px}.photo span{font-size:11px}.section-title>span{font-size:8px}aside{padding:23px 18px}.activity{padding:26px 18px}.activity .section-title{align-items:flex-start}.activity .section-title>span{max-width:110px}.job{gap:10px;font-size:11px}.job em{padding:4px 8px}select,textarea{font-size:16px}footer{padding:26px 20px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}button{transition:none}}
+
+/* Shared UI type, inset dropdown indicators, and aligned section edges. */
+input,select,textarea,button{font-family:inherit}
+select{appearance:none;-webkit-appearance:none;padding-right:42px;background-image:url('/static/chevron.svg');background-repeat:no-repeat;background-position:right 16px center;background-size:12px 8px}
+.ribbon span{font-size:14px;align-self:center}
+@media(max-width:760px){.surprise-panel{margin:16px 6px 28px;padding:20px}.ribbon{justify-content:space-between;gap:8px;font-size:8px;letter-spacing:.5px}}
+
+.album-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 24px}.album-tools .upload{margin:0;padding:12px 18px}
+
+/* Keep form labels and controls comfortably separated at every width. */
+label>select{display:block;margin-top:10px}
+.account-panel details>label{margin:20px 0}
+.account-panel details>button{margin:8px 10px 8px 0}
+.printer{flex-wrap:wrap;align-content:flex-start}
+.printer-sharing{width:100%;border-top:1px solid var(--line);padding-top:14px;margin-top:8px}
+.printer-sharing summary{cursor:pointer}
+.printer-sharing input{width:100%;min-width:0;margin:8px 0 12px;padding:10px;font:inherit;border:1px solid var(--line);border-radius:8px}
+.printer-sharing ul{list-style:none;padding:0}
+.printer-sharing li{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:12px 0}
+
+.printer-registration{max-width:420px;margin:24px 0}.printer-registration input{display:block;width:100%;font:inherit;padding:12px;margin-top:10px;border:1px solid #b7bfab;border-radius:8px;background:var(--cream);color:var(--ink)}
+
+nav a{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.activity .sub{font-size:17px}.activity .printer strong{font-size:17px}.activity .printer small,.activity .printer button,.activity .hint,.activity .job{font-size:14px}.activity label{font-size:15px}.activity .section-title>span{font-size:11px}
+
+/* Decorative hero motion stays separate from the cards' existing rotation. */
+.round-stamp{width:124px;height:124px;font-size:13px;right:-1%;top:-8%}
+@media(max-width:760px){.round-stamp{width:112px;height:112px;font-size:12px;right:-1%;top:-4%}}
+@media(prefers-reduced-motion:reduce){.memory-ticket,.round-stamp{translate:none!important}}
+
+.round-stamp{border:0;border-radius:0;background:transparent url('/static/cracker-stamp.svg') center / contain no-repeat}
+
+.album-sort{margin:0;min-width:170px}.album-sort select{margin-top:6px}
+.photo .contributor-tag{white-space:normal;font-size:12px;line-height:1.5;margin:12px 2px 0}
+.photo .contributor-tag:before{content:none}
+.color-editor{margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.color-editor summary{font-weight:600;cursor:pointer}.color-editor button{margin:6px 0}
+#colorPreview{display:block;width:100%;max-height:320px;object-fit:contain;border-radius:8px;background:var(--cream)}
+
+label{font-size:14px}input::placeholder,textarea::placeholder{font-size:14px;font-weight:400;color:var(--muted);opacity:.85}
+
+.slider-endpoints{display:flex;justify-content:space-between;font-size:12px;font-weight:400;color:var(--muted)}
+
+.duplicate-review{background:#e9e4db;border-radius:12px;padding:20px;margin-bottom:24px}
+.duplicate-review h3{margin:0 0 12px}.duplicate-group{border-top:1px solid var(--line);padding:16px 0}
+.duplicate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:16px}
+.duplicate-card img{width:100%;height:150px;object-fit:contain;background:var(--cream);border-radius:8px}
+.duplicate-card .hint{margin:6px 0}.duplicate-card label{font-size:12px}
+
+/* Keep the live image in view while the page scrolls through studio controls. */
+.print-studio{--preview-height:min(30svh,240px);position:relative;align-self:start}
+.print-studio:has(#editor:not([disabled])){outline:2px solid #aa8972;outline-offset:3px}
+.studio-preview{position:sticky;top:0;z-index:5;background:#e9e4db;padding:10px 0 12px;border-bottom:1px solid var(--line)}
+.preview-label{font-size:12px;line-height:1.4;margin:0 0 8px}
+.studio-preview .paper-wrap{height:var(--preview-height);min-height:0;padding:12px}
+.studio-preview .paper-wrap img,.studio-preview #colorPreview{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain;transform:none;min-height:0}
+.color-label{display:none}
+.print-studio:has(#colorEditor[open]):has(#colorPreview:not([hidden])) #preview,
+.print-studio:has(#colorEditor[open]):has(#colorPreview:not([hidden])) #previewEmpty,
+.print-studio:has(#colorEditor[open]):has(#colorPreview:not([hidden])) .thermal-label{display:none}
+.print-studio:has(#colorEditor[open]):has(#colorPreview:not([hidden])) .color-label{display:inline}
+.print-studio:not(:has(#colorEditor[open])) #colorPreview{display:none}
+.print-studio #editor,.print-studio input,.print-studio select,.print-studio textarea,.print-studio button,.print-studio summary,.print-studio a{scroll-margin-top:calc(var(--preview-height) + 90px)}
+@media(max-width:760px){.print-studio{--preview-height:min(25svh,180px)}.studio-preview{top:0;padding-top:8px}.preview-label{font-size:11px}}
+
+.ai-captions{margin:16px 0 24px}.caption-choice{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 16px;font-size:14px;font-weight:400;border-color:#aa8972;border-radius:12px}.caption-choice:hover{background:#e4d8c7}
+
+/* Browse the archive without moving the adjacent print controls. */
+@media(min-width:761px){
+  .workspace{height:calc(100vh - 48px);height:calc(100dvh - 48px);grid-template-rows:minmax(0,1fr);align-items:stretch}
+  .workspace>.album,.workspace>.print-studio{min-height:0;height:100%;overflow-y:auto;overscroll-behavior-y:contain;scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#aa8972 transparent}
+  .workspace>.album{padding:12px 10px 20px 8px}
+  .workspace>.print-studio{align-self:stretch;padding-top:0}
+  .workspace>.print-studio>.section-title{padding-top:25px}
+  .workspace>.print-studio .studio-preview{top:0;margin-left:-25px;margin-right:-25px;padding:10px 25px 12px}
+  .workspace>.album:focus-visible,.workspace>.print-studio:focus-visible{outline:2px solid #aa8972;outline-offset:3px}
+}
+
+/* A defined archive boundary and adjustable thumbnail density. */
+.workspace>.album{border:2px solid #aa8972;border-radius:12px;padding:20px}
+.gallery{--photo-min:240px;grid-template-columns:repeat(auto-fill,minmax(min(100%,var(--photo-min)),1fr));padding:6px}
+.gallery[data-size=small]{--photo-min:130px;gap:14px}
+.gallery[data-size=large]{--photo-min:380px}
+.gallery[data-size=small] .photo{padding:8px;border-radius:9px}
+.gallery[data-size=small] .photo img{border-width:5px;border-bottom-width:14px}
+.gallery[data-size=small] .contributor-tag{font-size:11px;margin-top:8px}
+@media(max-width:760px){
+  .workspace>.album{padding:14px}
+  .gallery{--photo-min:125px;gap:14px}
+  .gallery[data-size=small]{--photo-min:80px;gap:10px}
+  .gallery[data-size=large]{--photo-min:240px}
+}
+
+/* Archive toolbar and swsh-inspired grouped view controls. */
+.album-tools{display:flex;align-items:center;justify-content:flex-start;gap:12px}
+.album-tools>button,.album-tools>.upload{display:inline-flex;align-items:center;justify-content:center;min-height:46px;margin:0;padding:10px 18px;line-height:1.3;font-size:14px}
+#archiveView{width:min(540px,calc(100vw - 32px));max-height:85dvh;padding:24px;border:1px solid #aa8972;border-radius:24px;background:var(--cream);color:var(--ink);overflow-y:auto;overscroll-behavior:contain}
+#archiveView::backdrop{background:#30282080}
+.view-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:24px}
+.view-heading h2{font-size:28px}.view-heading button{font-size:28px;padding:0;width:40px;height:40px;border:0;background:transparent;line-height:1}
+#archiveView .view-group{margin:20px 0;padding:16px;border:0;border-radius:18px;background:#e9e4db}
+#archiveView .view-group-title{margin:0 0 16px;padding:0;font-weight:600;font-family:inherit;font-size:12px;line-height:1.4;letter-spacing:1px;text-transform:uppercase}
+#archiveView .view-group>.hint{margin:0 0 14px}
+.density-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#archiveView .density-options label{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;padding:12px 6px;margin:0;border:2px solid transparent;border-radius:14px;background:#d6ddcc;cursor:pointer}
+.density-options label:has(input:checked){border-color:#96765f!important;background:#e4d8c7!important}
+.density-options input{position:absolute;opacity:0;width:1px;height:1px}
+.density-options label:focus-within{outline:2px solid var(--ink);outline-offset:2px}
+.density-options small{font-size:10px;font-weight:400}.density-icon{height:54px;display:flex;gap:4px;width:100%;padding:4px}
+.density-icon i{flex:1;border-radius:4px;background:#9daa90}
+#archiveView .sort-options label,#viewContributors label{display:flex;align-items:center;gap:12px;margin:0;padding:14px 0;border-bottom:1px solid var(--line);font-size:14px;cursor:pointer}
+#archiveView .sort-options label:last-child,#viewContributors label:last-child{border-bottom:0}
+#archiveView input[type=radio],#archiveView input[type=checkbox]{accent-color:#876b55;width:20px;height:20px;flex-shrink:0;margin-left:auto}
+.contributor-avatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#d6ddcc;font-size:12px}
+.view-actions{display:flex;justify-content:flex-end;gap:12px;padding-top:12px}.view-actions .primary{width:auto;margin:0}
+@media(max-width:520px){#archiveView{padding:18px;border-radius:22px}.album-tools{gap:8px}.album-tools>button,.album-tools>.upload{flex:1 1 calc(50% - 8px);font-size:12px;padding:10px 12px}.density-options{gap:6px}.density-options small{font-size:9px}}
+
+/* Each printer expands independently in a horizontal shelf. */
+.printer-list{flex-direction:row;align-items:flex-start;overflow-x:auto;gap:18px;padding:4px 4px 18px;scroll-snap-type:x proximity;overscroll-behavior-x:contain;scrollbar-color:#aa8972 transparent}
+.printer-list>.printer{flex:0 0 min(420px,90%);min-width:0;display:block;scroll-snap-align:start;overflow-wrap:anywhere}
+.printer-heading{padding:4px 0 12px}.printer-heading strong{display:block}.printer-heading small{margin-top:5px}
+.printer-list .printer-sharing{margin-top:14px;padding-top:14px}
+.printer-list .printer-sharing summary{padding:4px 0}
+.printer-toolbar{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;margin-top:24px}
+.printer-toolbar label{margin:0;display:grid;gap:8px;flex:1 1 180px;max-width:320px}
+.printer-toolbar input,.printer-toolbar select{width:100%;min-width:0;height:44px;margin:0;padding:10px 14px;border:1px solid #b7bfab;border-radius:8px;background:var(--cream);color:var(--ink);font:inherit}
+.printer-toolbar select{padding-right:40px}.printer-toolbar>span{padding-bottom:10px;color:var(--muted);font-size:13px}
+@media(max-width:520px){.printer-list>.printer{flex-basis:92%}.printer-toolbar{gap:12px}.printer-toolbar label{max-width:none}}
+
+/* Keep both empty and active previews pinned; use a compact empty state. */
+.print-studio:has(#editor[disabled]) .paper-wrap{height:auto;min-height:110px}
+.print-studio #previewEmpty{margin:12px 0;font-family:inherit;font-size:14px;font-style:normal;line-height:1.5}
+
+.printer-list{border:2px solid #fff;border-radius:14px;padding:16px;min-height:100px}
+.printer .delete-printer{margin-top:20px;border-color:#9b6556;color:#854f42;background:transparent}
+
+.esp-guide,.esp-guide-steps{display:grid;gap:14px;margin-top:16px}.esp-guide label{display:grid;gap:6px;margin:0}.esp-guide button{justify-self:start}.esp-guide select{margin:0}.esp-guide input{margin:0}
+
+/* Readable archive count and print workflow steps. */
+.workspace .section-title>span{font-size:13px;line-height:1.4;letter-spacing:.7px;flex-shrink:0}
+.workspace .section-title{flex-wrap:wrap}
+@media(max-width:760px){.workspace .section-title>span{font-size:12px}}

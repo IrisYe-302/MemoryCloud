@@ -1,0 +1,6 @@
+# Install Caddy separately on the Pi. Trust its local CA on your phone/laptop.
+# Replace memorypi.local if your Pi has a different hostname.
+memorypi.local {
+    tls internal
+    reverse_proxy 127.0.0.1:8000
+}

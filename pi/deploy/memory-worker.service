@@ -1,0 +1,22 @@
+[Unit]
+Description=Memory Cloud simulated printers
+After=memory-web.service
+Requires=memory-web.service
+
+[Service]
+User=memory
+Group=memory
+WorkingDirectory=/opt/memory-cloud
+EnvironmentFile=/etc/memory-cloud.env
+ExecStart=/opt/memory-cloud/.venv/bin/python worker.py
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/memory-cloud
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,51 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.env
+*provision*.json
+*.pem
+*.key
+
+# Private runtime data, recovery copies, and backups
+data/
+recovered/
+backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.img
+*.tar
+*.tar.gz
+*.tgz
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+
+# ESP-IDF output; keep sdkconfig.defaults and dependencies.lock
+esp/**/build*/
+esp/**/sdkconfig
+esp/**/sdkconfig.old
+esp/**/managed_components/
+
+# Temporary files and machine-specific editor settings
+/tmp/
+*.log
+*.pid
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*~

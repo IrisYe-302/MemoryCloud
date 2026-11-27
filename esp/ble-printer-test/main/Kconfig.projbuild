@@ -1,0 +1,8 @@
+menu "Memory Cloud BLE test"
+    config MEMORY_TEST_PRINTER_ADDRESS
+        string "Printer Bluetooth address (AA:BB:CC:DD:EE:FF)"
+        default ""
+        help
+            Set the address of your own printer. The local sdkconfig is ignored
+            by Git; never put a personal address in sdkconfig.defaults.
+endmenu

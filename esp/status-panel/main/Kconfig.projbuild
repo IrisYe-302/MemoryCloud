@@ -1,0 +1,51 @@
+menu "Memory Cloud status panel"
+config MEMORY_LCD_ST7789
+    bool "Enable physical 170x320 ST7789 LCD (confirm controller first)"
+    default n
+if MEMORY_LCD_ST7789
+config MEMORY_LCD_SCLK
+    int "SCL / SPI clock GPIO"
+    range -1 48
+    default -1
+config MEMORY_LCD_MOSI
+    int "SDA / SPI MOSI GPIO"
+    range -1 48
+    default -1
+config MEMORY_LCD_RESET
+    int "RES GPIO"
+    range -1 48
+    default -1
+config MEMORY_LCD_DC
+    int "DC GPIO"
+    range -1 48
+    default -1
+config MEMORY_LCD_CS
+    int "CS GPIO"
+    range -1 48
+    default -1
+config MEMORY_LCD_BLK
+    int "BLK GPIO (-1 when wired to 3.3 V per module instructions)"
+    range -1 48
+    default -1
+config MEMORY_LCD_X_GAP
+    int "X RAM offset (verify with module documentation/test pattern)"
+    range 0 70
+    default 35
+config MEMORY_LCD_INVERT
+    bool "Invert panel colors"
+    default y
+config MEMORY_LCD_BGR
+    bool "Use BGR pixel order"
+    default n
+endif
+config MEMORY_DEMO
+    bool "Use simulated status messages (no networking or GPIO)"
+    default y
+    help
+        Exercise the display states over the serial monitor before wiring hardware.
+        When disabled, accept one JSON status message per line on the console.
+config MEMORY_STALE_SECONDS
+    int "Seconds before server status becomes stale"
+    range 5 300
+    default 15
+endmenu
